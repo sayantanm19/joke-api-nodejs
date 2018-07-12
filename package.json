@@ -1,0 +1,17 @@
+{
+  "name": "joke-api-new",
+  "version": "1.0.0",
+  "description": "Simple Joke API",
+  "main": "app.js",
+  "scripts": {
+    "devstart": "nodemon ./bin/www"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.2.3",
+    "nodemon": "^1.18.1",
+    "request": "^2.87.0"
+  }
+}
