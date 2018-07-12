@@ -30,7 +30,7 @@ Fetches all categories in the database
 
 ### Tech Stack
 
-Name_TODO uses a number of technologies:
+joke-api uses a number of technologies:
 * [node.js](https://nodejs.org/) - evented I/O for the backend
 * [Express](https://expressjs.com) - fast node.js network app framework
 * [MongoDB](https://www.mongodb.com) - database for storing the jokes
