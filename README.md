@@ -1,8 +1,9 @@
 # joke-pi => Simple ICNDB Clone in Node.js 
 
+joke-api is a simple clone of the popular ICNDB (The Internet Chuck Norris Database) that has for years provided a free open API to get random jokes.
+
 ![Example of JSON Output:](/images/example_random.png)
 
-joke-api is a simple clone of the popular ICNDB (The Internet Chuck Norris Database) that has for years provided a free open API to get random jokes.
 
 ### Usage
 
