@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>joke-api</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.min.css" />
+</head>
+<body>
+    <div class="container">
+
+    <h1>joke-api</h1>
+    
+    <h3>General</h3>
+
+    <p>Welcome to the simple clone of <a href="http://www.icndb.com/api/">ICNDB.</a>
+        Use HTTP GET to retrieve what you want (read on below for more details). Results can returned as raw JSON data</p>
+
+    <h3>Usage</h3>
+    <p>
+        <pre><code>https://localhost/all</code></pre>
+        This retrieves all jokes in the Database
+
+        <pre><code>https://localhost/random</code></pre>
+        To fetch 1 Random Joke from the Database
+
+        <pre><code>https://localhost/random/[num_of_jokes]</code></pre>
+        To fetch [num_of_jokes] random jokes from the Database
+
+        <pre><code>https://localhost/random/[num_of_jokes]?fname=Casey&lname=Caesam</code></pre>
+        Fetch [num_of_jokes] random jokes from the Database and replaces Chuck And Norris with the name specified in 'fname' and 'lname' query
+
+        <pre><code>https://localhost/random/categories</code></pre>
+        Fetches all categories in the database
+    </p>
+</div>
+    
+</body>
+</html>
