@@ -1,5 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const path = require('path')
 var config = require('./config');
 
 const app = express();
@@ -25,8 +26,10 @@ db.once('open', function() {
   console.log('Connected Succesfully')
 });
 
+app.use('/', express.static(path.join(__dirname, 'public')))
+
 app.get('/', (req, res) => {
-  res.send('Hello there, try /random or other combinations');
+  res.send('public/index.html');
 });
 
 //Get a list of all Jokes in Database
