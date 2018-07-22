@@ -4,6 +4,8 @@ joke-api is a simple clone of the popular ICNDB (The Internet Chuck Norris Datab
 
 ![Example of JSON Output:](/images/example_random.png)
 
+To view the JSON data formatted pretty in your browser like in the example, download the [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en) extension from Google Chrome Store or other similar extensions.
+
 
 ### Usage
 
